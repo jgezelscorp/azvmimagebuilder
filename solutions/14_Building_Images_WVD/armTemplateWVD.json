@@ -37,6 +37,7 @@
                     },
         
         "properties": {
+            "licenseType": "Windows_Client",
             "buildTimeoutInMinutes" : 120,
 
             "vmProfile": 
