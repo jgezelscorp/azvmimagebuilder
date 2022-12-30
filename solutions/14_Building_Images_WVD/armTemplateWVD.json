@@ -49,8 +49,8 @@
             "source": {
                 "type": "PlatformImage",
                     "publisher": "MicrosoftWindowsDesktop",
-                    "offer": "Windows-11",
-                    "sku": "win11-22h2-avd",
+                    "offer": "office-365",
+                    "sku": "win11-22h2-avd-m365",
                     "version": "latest"
             },
             "customize": [     
