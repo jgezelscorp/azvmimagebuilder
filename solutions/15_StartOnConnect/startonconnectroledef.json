@@ -1,21 +1,14 @@
 {
-    "properties": {
-        "roleName": " Azure Virtual Desktop Start VM on Connect",
-        "description": "",
-        "assignableScopes": [
-            "/subscriptions/<subscriptionId>"
-        ],
-        "permissions": [
-            {
-                "actions": [
-					        "Microsoft.Compute/virtualMachines/start/action",
-					        "Microsoft.Compute/virtualMachines/read",
-					        "Microsoft.Compute/virtualMachines/instanceView/read"
-				],
-                "notActions": [],
-                "dataActions": [],
-                "notDataActions": []
-            }
-        ]
-    }
+    "Name": "Azure Virtual Desktop Start VM on Connect",
+    "IsCustom": true,
+    "Description": "Azure Virtual Desktop Start VM on Connect",
+    "Actions": [
+	"Microsoft.Compute/virtualMachines/start/action",
+	"Microsoft.Compute/virtualMachines/read",
+	"Microsoft.Compute/virtualMachines/instanceView/read"
+    ],				],
+    "NotActions": [],
+    "AssignableScopes": [
+      "/subscriptions/<subscriptionID>"
+    ]
 }
