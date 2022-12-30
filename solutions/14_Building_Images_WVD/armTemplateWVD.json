@@ -25,7 +25,7 @@
         "location": "[parameters('svclocation')]",
         "dependsOn": [],
         "tags": {
-            "imagebuilderTemplate": "AzureImageBuilderSIG",
+            "imagebuilderTemplate": "Win11Multi",
             "userIdentity": "enabled"
                 },
             "identity": {
@@ -53,9 +53,7 @@
                     "sku": "win11-22h2-avd",
                     "version": "latest"
             },
-            "customize": [
-
-        
+            "customize": [     
                     {
                         "type": "PowerShell",
                         "name": "installFsLogix",
@@ -97,7 +95,6 @@
                                     ],
                         "updateLimit": 40
                     }
-
             ],
             "distribute": 
             [
@@ -107,7 +104,7 @@
                     "runOutputName": "<runOutputName>",
                     "artifactTags": {
                         "source": "wvd11",
-                        "baseosimg": "windows11"
+                        "baseosimg": "Win11Multi"
                     },
                     "replicationRegions": [
                       "<region1>"
