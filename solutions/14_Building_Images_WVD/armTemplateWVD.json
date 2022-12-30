@@ -25,7 +25,7 @@
         "location": "[parameters('svclocation')]",
         "dependsOn": [],
         "tags": {
-            "imagebuilderTemplate": "Win11Multi",
+            "imagebuilderTemplate": "Win11Multi365tem",
             "userIdentity": "enabled"
                 },
             "identity": {
@@ -103,8 +103,8 @@
                     "galleryImageId": "/subscriptions/<subscriptionID>/resourceGroups/<rgName>/providers/Microsoft.Compute/galleries/<sharedImageGalName>/images/<imageDefName>",
                     "runOutputName": "<runOutputName>",
                     "artifactTags": {
-                        "source": "wvd11",
-                        "baseosimg": "Win11Multi"
+                        "source": "wvd11Multi365",
+                        "baseosimg": "Win11Multi365"
                     },
                     "replicationRegions": [
                       "<region1>"
